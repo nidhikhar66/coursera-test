@@ -5,7 +5,7 @@ document.querySelector("button")
   
 
   $ajaxUtils
-  .sendGetRequest("http://localhost:3000/site/data/name.json",
+  .sendGetRequest("https://github.com/nidhikhar66/coursera-test/blob/master/ajax/name.json",
      function (res) {
      var message= 
         res.firstName+ " "+ res.lastName
